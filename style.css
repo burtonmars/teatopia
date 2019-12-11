@@ -1,0 +1,297 @@
+body {
+    font-family: 24px/1.5, "New Century Schoolbook", "TeX Gyre Schola", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-header {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+/* header */
+header .container {
+    display: flex;
+    background: #171717;
+    opacity: 70%;
+    min-height: 40px;
+    text-transform: uppercase;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+#home-head {
+    background-image: url("./imgs/person-in-field.jpg");
+    background-size: cover;
+    position: relative;
+    text-align: left;
+    color: #E6E4E4;
+    min-height: 850px;
+    max-height: 850px;
+}
+
+#home-head .layer {
+    background-color: rgba(10, 10, 10, .5);
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 101px);
+}
+
+header a {
+    text-decoration: none;
+    color: #E6E4E4;
+}
+
+header li {
+    display: inline;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+header #branding {
+    flex: 1.5;
+    margin-left: 70px;
+    font-size: 24px;
+}
+
+header nav {
+    flex: 1;
+    font-size: 18px;
+}
+
+/* home-page */
+
+#home-page .container {
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 150px;
+    color: #E6E4E4;
+}
+
+#home-page button {
+    width: 170px;
+    height: 45px;
+    background: #E6E4E4;
+    border-radius: 18px;
+    stroke: none;
+    font-size: 28px;
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+    text-align: center;
+    color: #434242;
+}
+
+/* About page */
+
+#about-page {
+    color: #434242;
+    margin-top: 30px;
+}
+
+#about-page h1 {
+    text-align: center;
+}
+
+#about-page section h1 {
+    font-size: 36px;
+}
+
+#about-page button {
+    color: #E6E4E4;
+    background: #434242;
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+    font-size: 16px;
+    width: 120px;
+    height: 35px;
+    margin-bottom: 40px;
+    margin-left: calc(50% - 60px);
+
+}
+
+#about-page p {
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#about-page .container .container .container {
+    margin: 40px;
+}
+
+#about-page img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#about-page .container .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#regions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#regions .container {
+    border: 3px solid;
+    border-color: #434242;
+    width: 500px;
+}
+
+#teas {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+}
+
+#teas .container {
+    border: 3px solid;
+    border-color: #434242;
+    width: 500px;
+}
+
+#ethical-sourcing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ethical-sourcing .container {
+    border: 3px solid;
+    border-color: #434242;
+    width: 500px;
+}
+
+/* our story page */
+
+#story-page {
+    background-image: url("./imgs/Chefchaouen.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 825px;
+    max-height: 825px;
+    color: #E6E4E4;
+    margin-top: 100px;
+}
+
+#story-page h1 {
+    text-align: center;
+}
+
+#story-page .layer {
+    background-color: rgba(10, 10, 10, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#story-page .container {
+    margin-top: 125px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#story-and-photo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#story-and-photo p {
+    width: 500px;
+    padding: 40px;
+    font-size: 22px;
+}
+
+#story-page img {
+    height: 300px;
+    width: 400px;
+}
+
+/* contact page */
+
+#contact-page {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #434242;
+}
+
+#contact-page img {
+    height: 400px;
+    width: 500px;
+    float: left;
+    margin-left: 15%;
+}
+
+#contact-page form {
+    width: 100%;
+    text-align: center;
+}
+
+#contact-page button {
+    color: #434242;
+    background: white;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#contact-page input {
+    margin: 10px;
+    padding: 8px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+#message-input {
+    height: 50px;
+}
+
+#email-input {
+    height: 25px;
+}
+
+#subject-input {
+    height: 25px;
+}
+
+/* footer */
+
+footer {
+    background: #434242;
+    color: #E6E4E4;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E6E4E4;
+}
+
+footer ul {
+    text-decoration: none;
+}
+
+footer li {
+    padding: 8px;
+}
