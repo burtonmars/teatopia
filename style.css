@@ -14,6 +14,11 @@ body {
     text-transform: uppercase;
 }
 
+button:hover {
+    background: #bebebe;
+    cursor: pointer;
+}
+
 /* header */
 header .container {
     display: flex;
@@ -80,7 +85,7 @@ header nav {
     width: 170px;
     height: 45px;
     background: #E6E4E4;
-    border-radius: 18px;
+    border-radius: 8px;
     stroke: none;
     font-size: 28px;
     font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
@@ -225,6 +230,10 @@ header nav {
 
 /* contact page */
 
+label {
+    display: block;
+}
+
 #contact-page {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -237,11 +246,6 @@ header nav {
     width: 500px;
     float: left;
     margin-left: 15%;
-}
-
-#contact-page form {
-    width: 100%;
-    text-align: center;
 }
 
 #contact-page button {
@@ -262,11 +266,7 @@ header nav {
     height: 50px;
 }
 
-#email-input {
-    height: 25px;
-}
-
-#subject-input {
+#email-input, #subject-input {
     height: 25px;
 }
 
